@@ -1,0 +1,7 @@
+/** !! THIS CODE GENERATE BY ALLY !! **/
+
+let rodotz = async (m, { conn, text, usedPrefix, command }) => {
+await conn.sendFile(m.chat, 'https://telegra.ph/file/5935478e8e81d38f6cb4c-abf2b84a76d518562a.jpg', m)
+}
+rodotz.command = ["jadwal"]
+module.exports = rodotz
